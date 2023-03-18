@@ -1,5 +1,4 @@
-import { Inject, Injectable } from '@nestjs/common';
-import { PostingService } from 'src/interface/posting.service';
+import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
